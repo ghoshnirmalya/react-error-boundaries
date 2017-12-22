@@ -25,9 +25,7 @@ export default class App extends React.Component {
 
   errorBoundaryNode = (ability, index) => {
     return (
-      <ErrorBoundary key={index}>
-        <Ability ability={ability} />
-      </ErrorBoundary>
+      <Ability ability={ability} />
     );
   }
 

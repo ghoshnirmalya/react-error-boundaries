@@ -6,7 +6,7 @@ const Ability = ({ability}) => {
   return (
     <div className="ability">
       <div className="ability__name">
-        { ability.ability.name }
+        { ability.props.ability.name }
       </div>
     </div>
   );

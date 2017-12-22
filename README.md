@@ -44,6 +44,16 @@ yarn test
 ```
 No tests have been added yet.
 
+## Branches
+#### [master](https://github.com/ghoshnirmalya/react-error-boundaries/tree/master)
+- API works fine and there is no error
+
+#### [with-error-boundary](https://github.com/ghoshnirmalya/react-error-boundaries/tree/with-error-boundary)
+- API doesn't work fine and there are errors but it's contained within a boundary
+
+#### [without-error-boundary](https://github.com/ghoshnirmalya/react-error-boundaries/tree/without-error-boundary)
+- API doesn't work fine and there are errors and it's not contained within a boundary
+
 ## Built With
 
 * [React](https://facebook.github.io/react/) - A JavaScript library for building user interfaces
